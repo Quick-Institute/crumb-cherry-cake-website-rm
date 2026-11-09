@@ -27,64 +27,64 @@ const CAKES = [
     { label: '6″ 500g', price: 3200 }, { label: '8″ 1kg', price: 5700 }, { label: '2kg', price: 11000 } ] },
   { id: 'c2', name: 'Ribbon Cake', cat: 'Classic',pic:'images/Ribbon Cake.png', sizes: [
     { label: '6″ 500g', price: 2900 }, { label: '8″ 1kg', price: 5100 }, { label: '2kg', price: 9500 } ] },
-  { id: 'c3', name: 'Butter Cake with Cashew', cat: 'Classic', sizes: [
+  { id: 'c3', name: 'Butter Cake with Cashew', cat: 'Classic',pic:'images/Butter Cake with Cashew.png', sizes: [
     { label: 'Mini', price: 1300 }, { label: '1.2kg', price: 4300, stock: 'call' } ] },
-  { id: 'c4', name: 'Butter Cake', cat: 'Classic', sizes: [
+  { id: 'c4', name: 'Butter Cake', cat: 'Classic',pic:'images/Butter Cake.png', sizes: [
     { label: 'Mini', price: 1100 }, { label: '1.1kg', price: 3700, stock: 'call' } ] },
-  { id: 'c5', name: 'Hazelnut Caramel Sponge', cat: 'Classic', sizes: [
+  { id: 'c5', name: 'Hazelnut Caramel Sponge', cat: 'Classic',pic:'images/Hazelnut Caramel Sponge.png', sizes: [
     { label: '6″ 500g', price: 4500, stock: 'out' }, { label: '8″ 1kg', price: 8500, stock: 'out' } ] },
   { id: 'c6', name: 'Battenburg', cat: 'Classic',pic:'images/Battenburg.png', sizes: [
     { label: 'Mini, 4 slices', price: 2000 }, { label: 'Loaf, 8 slices', price: 4000 } ] },
-  { id: 'c7', name: 'To Die For Chocolate Cake', cat: 'Chocolate', sizes: [
+  { id: 'c7', name: 'To Die For Chocolate Cake', cat: 'Chocolate',pic:'images/To Die For Chocolate Cake.png', sizes: [
     { label: '6″', price: 5200 }, { label: '8″', price: 9500 } ] },
-  { id: 'c8', name: 'Chocolate Treat', cat: 'Chocolate', sizes: [
+  { id: 'c8', name: 'Chocolate Treat', cat: 'Chocolate',pic:'images/Chocolate Treat.png', sizes: [
     { label: '8″ 1kg', price: 6500 } ] },
-  { id: 'c9', name: 'Ribbon Surprise', cat: 'Classic', sizes: [
+  { id: 'c9', name: 'Ribbon Surprise', cat: 'Classic',pic:'images/Ribbon Surprise.png', sizes: [
     { label: '6″ 800g', price: 4500 }, { label: '8″ 1.5kg', price: 8000 } ] },
-  { id: 'c10', name: 'Ultimate Chocolate Bliss', cat: 'Chocolate', sizes: [
+  { id: 'c10', name: 'Ultimate Chocolate Bliss', cat: 'Chocolate',pic:'images/Ultimate Chocolate Bliss.png', sizes: [
     { label: '8″', price: 9300 } ] },
-  { id: 'c11', name: 'Coffee Mocha', cat: 'Coffee', sizes: [
+  { id: 'c11', name: 'Coffee Mocha', cat: 'Coffee',pic:'images/Coffee Mocha.png', sizes: [
     { label: '6″ 500g', price: 3400 }, { label: '8″ 1kg', price: 6700 } ] },
-  { id: 'c12', name: 'Coffee Cake', cat: 'Coffee', sizes: [
+  { id: 'c12', name: 'Coffee Cake', cat: 'Coffee',pic:'images/Coffee Cake.png', sizes: [
     { label: '6″ 500g', price: 3400 }, { label: '8″ 1kg', price: 6700 } ] },
-  { id: 'c13', name: 'Chocolate Nougat Cake', cat: 'Chocolate', sizes: [
+  { id: 'c13', name: 'Chocolate Nougat Cake', cat: 'Chocolate', pic:'images/Chocolate Nougat Cake.png',sizes: [
     { label: '6″ 500g', price: 3600 }, { label: '8″ 1kg', price: 6600 } ] },
-  { id: 'c14', name: 'Orange Cake', cat: 'Fruity', sizes: [
+  { id: 'c14', name: 'Orange Cake', cat: 'Fruity',pic:'images/Orange Cake.png', sizes: [
     { label: '6″ 500g', price: 3800 }, { label: '8″ 1.2kg', price: 6900 } ] },
-  { id: 'c15', name: 'Hummingbird Cake', cat: 'Fruity', sizes: [
+  { id: 'c15', name: 'Hummingbird Cake', cat: 'Fruity',pic:'images/Hummingbird Cake.png', sizes: [
     { label: '8″', price: 8300 } ] },
-  { id: 'c16', name: 'Carrot Cake', cat: 'Classic', sizes: [
+  { id: 'c16', name: 'Carrot Cake', cat: 'Classic',pic:'images/Carrot Cake.png', sizes: [
     { label: '6″', price: 4200 }, { label: '8″', price: 8200 } ] },
-  { id: 'c17', name: 'Eggless Chocolate Cake', cat: 'Special diet', sizes: [
+  { id: 'c17', name: 'Eggless Chocolate Cake', cat: 'Special diet',pic:'images/Eggless Chocolate Cake.png', sizes: [
     { label: '6″ 500g', price: 3000 }, { label: '8″ 1kg', price: 5700 } ] },
-  { id: 'c18', name: 'Gluten Free Hazelnut Cake', cat: 'Special diet', sizes: [
+  { id: 'c18', name: 'Gluten Free Hazelnut Cake', cat: 'Special diet',pic:'images/Gluten Free Hazelnut Cake.png', sizes: [
     { label: '880g', price: 7800, stock: 'out' } ] },
-  { id: 'c19', name: 'Lemon Burst', cat: 'Fruity', sizes: [
+  { id: 'c19', name: 'Lemon Burst', cat: 'Fruity',pic:'images/Lemon Burst.png', sizes: [
     { label: '6″ 500g', price: 4200 }, { label: '8″ 1kg', price: 8100 } ] },
-  { id: 'c20', name: 'Red Velvet Cake', cat: 'Classic', sizes: [
+  { id: 'c20', name: 'Red Velvet Cake', cat: 'Classic',pic:'images/Red Velvet Cake.png', sizes: [
     { label: '8″ 1.3kg', price: 8800 } ] },
-  { id: 'c21', name: 'Chocolate Pineapple Cake', cat: 'Chocolate', sizes: [
+  { id: 'c21', name: 'Chocolate Pineapple Cake', cat: 'Chocolate',pic:'images/Chocolate Pineapple Cake.png', sizes: [
     { label: '6″', price: 5200 }, { label: '8″', price: 9400 } ] },
-  { id: 'c22', name: 'Passion Paradise', cat: 'Fruity', sizes: [
+  { id: 'c22', name: 'Passion Paradise', cat: 'Fruity',pic:'images/Passion Paradise.png', sizes: [
     { label: '6″', price: 3400 }, { label: '8″', price: 6200 } ] },
-  { id: 'c23', name: 'Good Old Chocolate Cake', cat: 'Chocolate', sizes: [
+  { id: 'c23', name: 'Good Old Chocolate Cake', cat: 'Chocolate',pic:'images/Good Old Chocolate Cake.png', sizes: [
     { label: '6″ 500g', price: 3600 }, { label: '8″ 1kg', price: 6800 } ] },
-  { id: 'c24', name: 'Almond Crunch', cat: 'Classic', sizes: [
+  { id: 'c24', name: 'Almond Crunch', cat: 'Classic',pic:'images/Almond Crunch.png', sizes: [
     { label: '7″', price: 5100 } ] },
-  { id: 'c25', name: 'Fruit Loaf', cat: 'Classic', sizes: [
+  { id: 'c25', name: 'Fruit Loaf', cat: 'Classic',pic:'images/Fruit Loaf.png', sizes: [
     { label: '300g', price: 2000, stock: 'call' } ] },
-  { id: 'c26', name: 'Midnight Mandarin', cat: 'Fruity', sizes: [
+  { id: 'c26', name: 'Midnight Mandarin', cat: 'Fruity',pic:'images/Midnight Mandarin.png', sizes: [
     { label: '6″ 500g', price: 3400 }, { label: '8″ 1kg', price: 6200 } ] },
-  { id: 'c27', name: 'Chocolate Mud Cake', cat: 'Chocolate', sizes: [
+  { id: 'c27', name: 'Chocolate Mud Cake', cat: 'Chocolate',pic:'images/Chocolate Mud Cake.png', sizes: [
     { label: '8″', price: 6700 } ] },
-  { id: 'c28', name: 'Passion Loaf', cat: 'Fruity', sizes: [
+  { id: 'c28', name: 'Passion Loaf', cat: 'Fruity',pic:'images/Passion Loaf.png', sizes: [
     { label: 'Loaf', price: 1400 } ] },
-  { id: 'c29', name: 'Lemon Loaf', cat: 'Fruity', sizes: [
+  { id: 'c29', name: 'Lemon Loaf', cat: 'Fruity',pic:'images/Lemon Loaf.png', sizes: [
     { label: 'Loaf', price: 1400 } ] },
-  { id: 'c30', name: 'Vanilla Chocolate Chip', cat: 'Classic', sizes: [
+  { id: 'c30', name: 'Vanilla Chocolate Chip', cat: 'Classic',pic:'images/Vanilla Chocolate Chip.png', sizes: [
     { label: '8″', price: 6200, stock: 'call' } ] },
-  { id: 'c31', name: 'Victoria Sponge', cat: 'Classic', sizes: [
+  { id: 'c31', name: 'Victoria Sponge', cat: 'Classic',pic:'images/Victoria Sponge.png', sizes: [
     { label: '6″', price: 3600, stock: 'call' }, { label: '8″ 1kg', price: 6900, stock: 'call' } ] },
-  { id: 'c32', name: 'Jaggery Surprise', cat: 'Classic', sizes: [
+  { id: 'c32', name: 'Jaggery Surprise', cat: 'Classic',pic:'images/Jaggery Surprise.png', sizes: [
     { label: '8″ 1kg', price: 6800 } ] }
 ];
