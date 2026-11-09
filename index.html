@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Crumb &amp; Cherry – Handmade cheesecakes, ready when you need them</title>
+
+  <meta name="description" content="Handmade cheesecakes for pickup, local delivery or nationwide shipping. Tell us how many people and we'll tell you what size. Gluten-free and eggless options.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#7A1F3D">
+  <link rel="canonical" href="https://www.example.com/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍒</text></svg>">
+
+  <!-- Social sharing cards -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Crumb &amp; Cherry – Handmade cheesecakes">
+  <meta property="og:description" content="Handmade cheesecakes for pickup or delivery.">
+  <meta property="og:image" content="https://www.example.com/images/bg2.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Business data for search engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "Crumb & Cherry",
+    "description": "Handmade cheesecakes for pickup or delivery.",
+    "url": "https://www.example.com/",
+    "image": "https://www.example.com/images/bg2.jpg",
+    "priceRange": "$$",
+    "openingHours": "We,Th,Fr,Sa 12:00-18:00"
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,500&family=Figtree:wght@400;500;700&family=Great+Vibes&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <a class="skip" href="#shop">Skip to the cakes</a>
+
+  <!-- Header and navigation -->
+  <header class="hd" id="hd">
+
+    <a class="mark" href="#" aria-label="Crumb &amp; Cherry home">
+  <img src="https://static.vecteezy.com/system/resources/previews/035/875/669/non_2x/ai-generated-fresh-two-cherry-isolated-on-transparent-background-free-png.png" alt="Crumb &amp; Cherry logo" width="46" height="46">
+  </a>
+
+    <nav class="mnav" aria-label="Main">
+      <ul>
+        <li><a href="#top" class="on">Home</a></li>
+        <li><a href="#featured">Favourites</a></li>
+        <li><a href="#menuSec">Menu</a></li>
+
+        <li class="has-sub">
+          <button type="button" aria-expanded="false" aria-haspopup="true">
+            Shop
+          </button>
+
+          <ul class="sub" hidden>
+            
+            <li><a href="#shop">All cheesecakes</a></li>
+            <li><a href="#cakesSec">All cakes</a></li>
+            <li><a href="#featured">Bakers' favourites</a></li>
+            
+
+            <li class="has-sub2">
+              <button type="button" class="sub-btn"
+                aria-expanded="false" aria-haspopup="true">
+                By flavour <span aria-hidden="true">›</span>
+              </button>
+
+              <ul class="sub2" hidden>
+                <li><a href="#shop" data-filter="cat:Classic">Classic</a></li>
+                <li><a href="#shop" data-filter="cat:Fruity">Fruity</a></li>
+                <li><a href="#shop" data-filter="cat:Chocolate">Chocolate</a></li>
+              </ul>
+            </li>
+
+            <li class="has-sub2">
+              <button type="button" class="sub-btn"
+                aria-expanded="false" aria-haspopup="true">
+                By need <span aria-hidden="true">›</span>
+              </button>
+
+              <ul class="sub2" hidden>
+                <li><a href="#shop" data-filter="diet:gf">Gluten-free</a></li>
+                <li><a href="#shop" data-filter="diet:veg">Eggless</a></li>
+                <li><a href="#shop" data-filter="saved:1">My saved cakes</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#custom">Design your cake</a></li>
+            <li><a href="#help">Help me choose</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#gallery">Gallery</a></li>
+
+        <li class="has-sub">
+          <button type="button" aria-expanded="false" aria-haspopup="true">
+            Delivery
+          </button>
+
+          <ul class="sub" hidden>
+            <li><a href="#how">Pickup</a></li>
+            <li><a href="#how">Local delivery</a></li>
+            <li><a href="#how">Shipped nationwide</a></li>
+            <li><a href="#faq">Order questions</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Search, saved cakes, cart and menu -->
+    <div class="tools">
+
+      <button class="ico" id="srchBtn"
+        aria-label="Search cheesecakes" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="1.6">
+          <circle cx="10" cy="10" r="6.5"/>
+          <path d="M15 15l6 6"/>
+        </svg>
+      </button>
+
+      <button class="ico" id="wishBtn"
+        aria-pressed="false" aria-label="Saved cakes">
+        <svg width="24" height="24" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="1.6">
+          <path d="M12 20s-8-5-8-11a4.5 4.5 0 018-2.5A4.5 4.5 0 0120 9c0 6-8 11-8 11z"/>
+        </svg>
+        <span id="wcount" class="num" aria-label="0 saved">0</span>
+      </button>
+
+      <button class="ico" id="openCart"
+        aria-haspopup="dialog" aria-label="Open cart">
+        <svg width="24" height="26" viewBox="0 0 24 26"
+          fill="none" stroke="currentColor" stroke-width="1.6">
+          <path d="M4 8h16l1 16H3z"/>
+          <path d="M8 11V6a4 4 0 018 0v5"/>
+        </svg>
+        <span id="count" class="num" aria-label="0 items">0</span>
+      </button>
+
+      <button class="ico" id="menuBtn"
+        aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+        <svg width="38" height="22" viewBox="0 0 38 22"
+          stroke="currentColor" stroke-width="1.6">
+          <path d="M2 3h34M12 11h24M2 19h34"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Search form -->
+    <form class="srch" id="searchForm" role="search" hidden>
+      <label class="sr" for="q">Search cheesecakes</label>
+      <input id="q" type="search"
+        placeholder="Search flavours, e.g. lemon" autocomplete="off">
+    </form>
+  </header>
+
+  <!-- Full-screen navigation menu -->
+  <nav class="menu" id="menu" aria-label="Full menu" hidden>
+    <button class="x" id="menuX" aria-label="Close menu">×</button>
+
+    <ul>
+      <li><a href="#top">Home</a></li>
+      <li><a href="#featured">Favourites</a></li>
+      <li><a href="#menuSec">Menu</a></li>
+      <li><a href="#cakesSec">All cakes</a></li>
+
+      <li>
+        <a href="#shop">Shop</a>
+        <ul>
+          <li><a href="#shop">All cheesecakes</a></li>
+          <li><a href="#featured">Bakers' favourites</a></li>
+          <li><a href="#help">Help me choose</a></li>
+        </ul>
+      </li>
+
+      <li><a href="#custom">Design your cake</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#how">Delivery</a></li>
+      <li><a href="#faq">Questions</a></li>
+    </ul>
+  </nav>
+
+  <a class="side" href="#help">Help me choose</a>
+  <a class="side w" href="#shop">Order now</a>
+
+  <main>
+
+    <!-- Hero carousel -->
+    <section class="hero2" id="top"
+      aria-roledescription="carousel" aria-label="Welcome">
+
+      <h1 class="sr">
+        Crumb &amp; Cherry: handmade cheesecakes for pickup or delivery
+      </h1>
+
+      <div id="heroSlides"></div>
+
+      <button class="arr l" id="hPrev" aria-label="Previous slide">
+        <svg width="40" height="70" viewBox="0 0 40 70"
+          fill="none" stroke="currentColor">
+          <path d="M36 2L4 35l32 33"/>
+        </svg>
+      </button>
+
+      <button class="arr r" id="hNext" aria-label="Next slide">
+        <svg width="40" height="70" viewBox="0 0 40 70"
+          fill="none" stroke="currentColor">
+          <path d="M4 2l32 33L4 68"/>
+        </svg>
+      </button>
+
+      <div class="dots" id="hDots"
+        role="group" aria-label="Choose slide"></div>
+    </section>
+
+    <!-- Featured cheesecakes -->
+    <section id="featured" aria-labelledby="featH">
+      <div class="shop-head">
+        <h2 id="featH">Bakers' favourites</h2>
+
+        <div class="chips">
+          <button type="button" id="fPlay">Pause</button>
+          <button type="button" id="prev" aria-label="Previous cakes">‹</button>
+          <button type="button" id="next" aria-label="Next cakes">›</button>
+        </div>
+      </div>
+
+      <div class="slider" id="slider"
+        role="region" aria-roledescription="carousel"
+        aria-label="Featured cheesecakes" tabindex="0"></div>
+    </section>
+
+    <!-- Cake size recommendation -->
+    <section id="help" class="help" aria-labelledby="helpH">
+      <h2 id="helpH">Not sure what size? Tell us about your day.</h2>
+
+      <div class="help-grid">
+        <div class="field">
+          <label for="guests">How many people?</label>
+
+          <div class="stepper">
+            <button type="button" id="gMinus" aria-label="Fewer people">−</button>
+            <input id="guests" type="number" min="1" max="60"
+              value="8" inputmode="numeric">
+            <button type="button" id="gPlus" aria-label="More people">+</button>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="when">When do you need it?</label>
+          <input id="when" type="date">
+        </div>
+
+        <div class="field">
+          <span class="lbl">Any dietary needs?</span>
+
+          <div class="chips" role="group" aria-label="Dietary needs">
+            <label><input type="checkbox" value="gf"> Gluten-free</label>
+            <label><input type="checkbox" value="veg"> Eggless</label>
+          </div>
+        </div>
+      </div>
+
+      <p id="advice" class="advice" role="status" aria-live="polite"></p>
+
+      <button class="btn primary" id="applyHelp">
+        Show matching cakes
+      </button>
+    </section>
+
+    <!-- Cheesecake shop and filters -->
+    <section id="shop" aria-labelledby="shopH">
+      <div class="shop-head">
+        <h2 id="shopH">The cheesecakes</h2>
+
+        <div class="controls">
+          <div class="chips" role="group"
+            aria-label="Filter by type" id="catChips"></div>
+
+          <label class="sortl">
+            Sort
+            <select id="sort">
+              <option value="pop">Most loved</option>
+              <option value="lo">Price: low to high</option>
+              <option value="hi">Price: high to low</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <p id="result" class="muted" role="status" aria-live="polite"></p>
+      <div id="grid" class="grid"></div>
+
+      <div id="empty" class="emptybox" hidden>
+        <p><strong>No cheesecakes match that.</strong></p>
+        <p>Try a shorter search or clear the filters.</p>
+        <button class="btn ghost" id="clear">Clear filters</button>
+      </div>
+    </section>
+
+    <!-- Menu: cakes, cupcakes, desserts and more -->
+    <section id="menuSec" class="menu-sec" aria-labelledby="menuH">
+      <h2 id="menuH">Our menu</h2>
+      <p class="muted">Pick a group, then add what you like.</p>
+
+      <div class="chips" id="menuTabs"
+        role="group" aria-label="Menu groups"></div>
+
+      <ul class="menu-list" id="menuList"></ul>
+    </section>
+
+    <!-- All cakes: search, filter and size picker -->
+    <section id="cakesSec" class="cakes-sec" aria-labelledby="cakesH">
+      <div class="shop-head">
+        <h2 id="cakesH">All our cakes</h2>
+
+        <label class="sortl">
+          Search
+          <input id="cakeQ" type="search"
+            placeholder="e.g. lemon" autocomplete="off">
+        </label>
+      </div>
+
+      <div class="chips" id="cakeChips"
+        role="group" aria-label="Cake types"></div>
+
+      <p id="cakeCount" class="muted"
+        role="status" aria-live="polite"></p>
+
+      <div class="cake-grid" id="cakeGrid"></div>
+
+      <p id="cakeEmpty" class="emptybox" hidden>
+        No cakes match that. Try another word.
+      </p>
+    </section>
+
+    <!-- Custom cake designer -->
+    <section id="custom" class="custom" aria-labelledby="cuH">
+      <div>
+        <h2 id="cuH">Design your own cake</h2>
+
+        <p>
+          Choose a flavour, a colour and a message.
+          The cake on the right updates as you go, with the price.
+        </p>
+
+        <form id="cuForm" class="cu-form">
+          <div class="fld">
+            <label for="cuF">Flavour</label>
+            <select id="cuF"></select>
+          </div>
+
+          <div class="fld">
+            <label for="cuS">Size</label>
+            <select id="cuS"></select>
+          </div>
+
+          <fieldset class="fld">
+            <legend class="lbl">Decoration colour (+Rs. 600)</legend>
+            <div class="sw" id="cuC"></div>
+          </fieldset>
+
+          <div class="fld">
+            <label for="cuM">Message on the cake (optional)</label>
+            <input id="cuM" type="text" maxlength="30"
+              placeholder="e.g. Congratulations, Amal">
+          </div>
+
+          <p class="price" id="cuP" aria-live="polite"></p>
+
+          <button class="btn primary">Add custom cake to cart</button>
+        </form>
+      </div>
+
+      <div class="cu-view" id="cuV" aria-hidden="true"></div>
+    </section>
+
+    <!-- Recent cake gallery -->
+    <section id="gallery" aria-labelledby="gaH">
+      <h2 id="gaH">Recent cakes</h2>
+      <p class="muted">Select a photo to view it larger.</p>
+      <div class="masonry" id="mas"></div>
+    </section>
+
+    <!-- Delivery information -->
+    <section id="how" class="how" aria-labelledby="howH">
+      <h2 id="howH">Getting it to you</h2>
+
+      <div class="how-grid">
+        <article>
+          <h3>Pick up</h3>
+          <p>Free. Wed–Sat, 12–6pm. Ask for a pickup window at checkout.</p>
+        </article>
+
+        <article>
+          <h3>Local delivery</h3>
+          <p>Rs. 900, or free over Rs. 8,000. Cakes travel chilled in a sturdy box.</p>
+        </article>
+
+        <article>
+          <h3>Shipped nationwide</h3>
+          <p>Frozen and packed with ice. Arrives in 2 days, ready to thaw.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Customer reviews -->
+    <section class="reviews" aria-labelledby="revH">
+      <h2 id="revH">What people say</h2>
+
+      <div class="rev-grid">
+        <figure>
+          <blockquote>
+            Our guest has celiac and she finally had dessert with everyone.
+            It was gone in ten minutes.
+          </blockquote>
+          <figcaption>Melissa, wedding reception</figcaption>
+        </figure>
+
+        <figure>
+          <blockquote>
+            Ordered at 1:45pm, picked up next day, and the lemon one
+            tasted like it was baked for us.
+          </blockquote>
+          <figcaption>Michelle, birthday</figcaption>
+        </figure>
+
+        <figure>
+          <blockquote>
+            They helped me pick the size by message.
+            Nobody ran out and nothing was wasted.
+          </blockquote>
+          <figcaption>Sharon, office party</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Frequently asked questions -->
+    <section id="faq" class="faq" aria-labelledby="faqH">
+      <h2 id="faqH">Good questions</h2>
+
+      <details>
+        <summary>How far ahead should I order?</summary>
+        <p>
+          Order by 2pm for next-day pickup.
+          For weddings and large orders, please give us two weeks.
+        </p>
+      </details>
+
+      <details>
+        <summary>Can I change or cancel my order?</summary>
+        <p>
+          Yes, until 2pm the day before.
+          Reply to your confirmation email and we'll sort it out.
+        </p>
+      </details>
+
+      <details>
+        <summary>What if I have allergies?</summary>
+        <p>
+          Every cake lists its allergens. Our kitchen is nut-free,
+          and gluten-free cakes use a separate prep area.
+        </p>
+      </details>
+
+      <details>
+        <summary>How long does a cheesecake keep?</summary>
+        <p>Five days in the fridge, or two months frozen.</p>
+      </details>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Crumb &amp; Cherry. Baked fresh, Wed–Sat.</p>
+    <p><a href="#shop">Shop</a> · <a href="#how">Delivery</a> · <a href="#faq">Questions</a></p>
+  </footer>
+
+  <!-- Cart overlay and drawer -->
+  <div class="scrim" id="scrim" hidden></div>
+
+  <aside class="drawer" id="drawer" role="dialog"
+    aria-modal="true" aria-labelledby="cartH" hidden>
+
+    <header>
+      <h2 id="cartH">Your cart</h2>
+      <button class="x" id="closeCart" aria-label="Close cart">×</button>
+    </header>
+
+    <div id="cartBody"></div>
+  </aside>
+
+  <!-- Product quick view and image lightbox -->
+  <dialog id="qv" aria-labelledby="qvT"></dialog>
+  <dialog id="lb" aria-labelledby="lbT"></dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- Main JavaScript -->
+  <script src="js/menu-data.js"></script>
+  <script src="js/cakes-data.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
