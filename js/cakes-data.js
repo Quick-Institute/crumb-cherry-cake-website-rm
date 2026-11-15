@@ -73,7 +73,7 @@ const CAKES = [
     { label: '7″', price: 5100 } ] },
   { id: 'c25', name: 'Fruit Loaf', cat: 'Classic',pic:'images/Fruit Loaf.png', sizes: [
     { label: '300g', price: 2000, stock: 'call' } ] },
-  { id: 'c26', name: 'Midnight Mandarin', cat: 'Fruity',pic:'images/Midnight Mandarin.png', sizes: [
+  { id: 'c26', name: 'Midnight Mandarin', cat: 'Fruity',pic:'images/image1.png', sizes: [
     { label: '6″ 500g', price: 3400 }, { label: '8″ 1kg', price: 6200 } ] },
   { id: 'c27', name: 'Chocolate Mud Cake', cat: 'Chocolate',pic:'images/Chocolate Mud Cake.png', sizes: [
     { label: '8″', price: 6700 } ] },
